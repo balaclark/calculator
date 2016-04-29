@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="calculator.css">
+
+<div class="calculator">
+  <div>
+    <div class="display"></div>
+  </div>
+  <div class="row">
+    <button class="input">7</button>
+    <button class="input">8</button>
+    <button class="input">9</button>
+    <button class="input"> + </button>
+  </div>
+  <div class="row">
+    <button class="input">4</button>
+    <button class="input">5</button>
+    <button class="input">6</button>
+    <button class="input" data-single-input=true> ÷ </button>
+  </div>
+  <div class="row">
+    <button class="input">1</button>
+    <button class="input">2</button>
+    <button class="input">3</button>
+    <button class="input" data-single-input=true> x </button>
+  </div>
+  <div class="row">
+    <button class="input input--triple">0</button>
+    <button class="input" data-single-input=true>.</button>
+  </div>
+  <div class="row">
+    <button class="input input--double clear">AC</button>
+    <button class="input--double eval">=</button>
+  </div>
+</div>
+
+<script src="calculator.js"></script>
+<script>
+  setupCalculator(document.querySelector('.calculator'))
+</script>

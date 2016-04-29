@@ -1,0 +1,32 @@
+.calculator {
+  max-width: 300px;
+}
+
+.calculator .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.calculator .display {
+  border: solid 1px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1em;
+}
+
+.calculator button {
+  height: 4em;
+  width: 25%;
+}
+
+.calculator .input--double {
+  width: 50%
+}
+
+.calculator .input--triple {
+  width: 75%
+}
+
