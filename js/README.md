@@ -8,4 +8,4 @@
 
 ## Run
 
-Open `calculator.js` in your browser.
+Open `calculator.html` in your browser.
